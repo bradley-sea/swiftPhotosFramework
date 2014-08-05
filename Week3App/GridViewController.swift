@@ -12,7 +12,7 @@ import Photos
 class GridViewController: UIViewController, UICollectionViewDataSource,UICollectionViewDelegate, SelectedPhotoDelegate {
 
     @IBOutlet weak var collectionView: UICollectionView!
-    
+    //
     var assetsFetchResults : PHFetchResult!
     var assetCollection : PHAssetCollection!
     var imageManager : PHCachingImageManager!
