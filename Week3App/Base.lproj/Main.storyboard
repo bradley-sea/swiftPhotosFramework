@@ -25,15 +25,26 @@
                                     <segue destination="Z88-dv-r5i" kind="show" identifier="ShowGrid" id="34V-rF-gfB"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bLt-dz-sB3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bLt-dz-sB3">
                                 <rect key="frame" x="20" y="26" width="560" height="349"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFf-zM-jiE">
+                                <rect key="frame" x="225" y="550" width="39" height="30"/>
+                                <state key="normal" title="Sepia">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleSepiaPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gMs-Jr-bhG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="bLt-dz-sB3" secondAttribute="trailing" constant="20" id="7hS-Dx-RCo"/>
                             <constraint firstItem="bLt-dz-sB3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="9qj-xB-16z"/>
+                            <constraint firstItem="8fb-KU-15P" firstAttribute="leading" secondItem="IFf-zM-jiE" secondAttribute="trailing" constant="15" id="ALW-R6-ue7"/>
                             <constraint firstItem="bLt-dz-sB3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="6" id="IK0-qw-jHA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="IFf-zM-jiE" secondAttribute="bottom" constant="20" id="LQP-ao-Eiu"/>
                             <constraint firstItem="8fb-KU-15P" firstAttribute="top" secondItem="bLt-dz-sB3" secondAttribute="bottom" constant="175" id="aHX-oP-JLY"/>
                             <constraint firstAttribute="centerX" secondItem="8fb-KU-15P" secondAttribute="centerX" id="hvy-ev-m9C"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="8fb-KU-15P" secondAttribute="bottom" constant="20" id="jWp-bG-oii"/>
@@ -124,7 +135,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vii-Jo-NpM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vii-Jo-NpM">
                                 <rect key="frame" x="12" y="92" width="576" height="415"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZkM-aK-aax">
