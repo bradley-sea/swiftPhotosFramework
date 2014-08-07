@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Week3App.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A2F6FCFB1993FC8F00110EC6"
+               BuildableName = "designableViewsTests.xctest"
+               BlueprintName = "designableViewsTests"
+               ReferencedContainer = "container:Week3App.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -35,6 +49,16 @@
                BlueprintIdentifier = "A2CB2987198EB44A00AA3AB9"
                BuildableName = "Week3AppTests.xctest"
                BlueprintName = "Week3AppTests"
+               ReferencedContainer = "container:Week3App.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A2F6FCFB1993FC8F00110EC6"
+               BuildableName = "designableViewsTests.xctest"
+               BlueprintName = "designableViewsTests"
                ReferencedContainer = "container:Week3App.xcodeproj">
             </BuildableReference>
          </TestableReference>
